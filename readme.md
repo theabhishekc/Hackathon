@@ -16,6 +16,27 @@ The project follows a structured, end-to-end pipeline:
 5.  **Inference & Business Application:** Generate PD scores for all applicants, assign interest rates (7%-18%), calculate expected profit, and select the top 30% most profitable applicants.
 6.  **Deployment Preparation:** Save the final model and all preprocessing objects for production use.
 
+
+
+## Technologies & Libraries
+-   **Language:** Python 3.8+
+-   **Data Manipulation:** Pandas, NumPy
+-   **Machine Learning:** Scikit-learn, LightGBM
+-   **Hyperparameter Tuning:** Optuna
+-   **Visualization:** Matplotlib, Seaborn
+-   **Serialization:** Joblib
+
+## Installation & Execution (Google Colab)
+
+1. **Open the Notebook in Colab:**  
+   - Upload [`hackathon.ipynb`][def] to Google Colab **or**  
+   - Click the Colab badge to open directly  
+
+
+2. **Install Dependencies (inside Colab):**  
+   Run the following command in the first cell to install all required libraries:  
+   ```python
+   %pip install pandas numpy scikit-learn lightgbm optuna joblib
 ## Key Results
 -   **Model Performance:** Achieved an exceptional ROC-AUC score of **0.951**.
 -   **Business Impact:** Identified a portfolio with an **expected profit of $7.87 million** from the top 30% of applicants.
@@ -80,28 +101,5 @@ Where:
 Our approach leverages **tiered risk-based pricing** + **profit-driven portfolio selection** to maximize both **competitiveness** and **financial returns**.
 
 
-## Technologies & Libraries
--   **Language:** Python 3.8+
--   **Data Manipulation:** Pandas, NumPy
--   **Machine Learning:** Scikit-learn, LightGBM
--   **Hyperparameter Tuning:** Optuna
--   **Visualization:** Matplotlib, Seaborn
--   **Serialization:** Joblib
-
-## Installation & Execution (Google Colab)
-
-1. **Open the Notebook in Colab:**  
-   - Upload [`hackathon.ipynb`][def] to Google Colab **or**  
-   - Click the Colab badge to open directly  
-
-
-2. **Install Dependencies (inside Colab):**  
-   Run the following command in the first cell to install all required libraries:  
-   ```python
-   %pip install pandas numpy scikit-learn lightgbm optuna joblib
-## Contributors
-- [Team Member 1 Name](link-to-profile): *Developed the feature engineering pipeline and model tuning strategy.*
-- [Team Member 2 Name](link-to-profile): *Built the business logic for pricing and profit optimization.*
-- [Team Member 3 Name](link-to-profile): *Designed the validation framework and prepared deployment artifacts.*
 
 [def]: https://colab.research.google.com/drive/1Wn0Ox3JQjyFwgxXAZj1t5MZmlKv_QXpS?usp=sharing

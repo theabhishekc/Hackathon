@@ -37,6 +37,8 @@ The project follows a structured, end-to-end pipeline:
    Run the following command in the first cell to install all required libraries:  
    ```python
    %pip install pandas numpy scikit-learn lightgbm optuna joblib
+   or
+   pip install -r requirements.txt
 ## Key Results
 -   **Model Performance:** Achieved an exceptional ROC-AUC score of **0.951**.
 -   **Business Impact:** Identified a portfolio with an **expected profit of $7.87 million** from the top 30% of applicants.

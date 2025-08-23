@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background: #0b1020; color: #eaeefa; }
+header { padding: 24px; background: #0f1530; border-bottom: 1px solid #26315a; }
+h1 { margin: 0 0 6px 0; font-size: 24px; }
+p { margin: 6px 0; }
+main { padding: 24px; max-width: 1100px; margin: 0 auto; }
+.panel { background: #11183a; border: 1px solid #26315a; border-radius: 16px; padding: 20px; margin-bottom: 20px; box-shadow: 0 6px 24px rgba(0,0,0,0.25); }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.card { background: #0f1530; border: 1px solid #26315a; border-radius: 14px; padding: 16px; }
+button { background: #5b7cfa; border: none; color: white; padding: 10px 14px; border-radius: 10px; cursor: pointer; font-weight: 600; }
+button:hover { opacity: 0.9; }
+select, input { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #2d3a70; background: #0b1028; color: #eaeefa; }
+label { display: block; margin-bottom: 8px; font-weight: 600; }
+.meta { margin-top: 12px; font-size: 14px; color: #cdd7ff; }
+footer { text-align: center; padding: 16px; color: #9db0ff; }
+#pdVal, #rateVal, #profitVal, #totProfit { font-size: 18px; }
